@@ -15,12 +15,12 @@
     <header class="main-header">
       <div class="container">    
         <div class="top-block">
-          <div class="top-block-title">
+          <h1 class="top-block-logo">
             <a href="index.html">Техномарт</a>  
-          </div>
-	      <form class="top-block-search" action="#" method="get">
-			<label for="quest">поиск</label>  
-            <input id="quest" name="search" type="text" value="">  
+          </h1>
+          <form class="top-block-search" action="#" method="get">
+			<label>поиск  
+            <input name="search" type="text" value=""></label>  
           </form>		
           <div class="top-block-bookmark">
             <a class="bookmark" href="#">Закладки:0</a>  
@@ -39,7 +39,7 @@
             </section>
             <section class="info-contacts">
               <div class="info-contacts-tel">
-                <b>+7(812)555-05-55</b>  
+                <a href="#">+7(812)555-05-55</a>  
               </div>
                 <p>г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>    
             </section>
@@ -82,9 +82,9 @@
       </div>    
     </header>
       
-    <main class="container">
-      <div class="breadcrumbs">
-        <ul class="breadcrumbs-list">
+    <main data-content="catalog">
+      <div class="container">
+        <ul class="breadcrumbs">
           <li>
             <a href="#">каталог</a>  
           </li> 
@@ -95,15 +95,14 @@
             <a href="#">перфораторы</a>  
           </li>     
         </ul>
-      </div>
-      <div class="instrument-name">
-        <h2>перфораторы</h2>
-      </div>
+      
+      <h2 class="instrument-name">перфораторы</h2>
       <div class="content-item">
         <div class="content-item-left">
 		  <div class="filter">
 			<span>фильтр:</span>  
 	   	  </div>
+		  <form action="#" method="get">	
 		  <div class="content-item-left-price">
 			<span>цена:</span>
 			<div class="filter-price">
@@ -125,7 +124,7 @@
 		  <div class="content-item-left-brands">
 			<span>производители:</span>
 			<div class="content-item-left-list">
-			  <form action="#" method="get">	
+			  	
 			    <input id="bosch" type="checkbox" name="#" value="#" checked>
 			    <label for="bosch">bosch</label>
 	            <input id="interscol" type="checkbox" name="#" value="#">		
@@ -136,23 +135,24 @@
 			    <label for="dewalt">dewalt</label>
 			    <input id="hitachi" type="checkbox" name="#" value="#">		
 			    <label for="hitachi">hitachi</label>
-			  </form>				
+			  				
 			</div>
 		  </div>
 		  <div class="content-item-left-energy">
 			<span>питание:</span>
 			<div class="content-item-left-list">
-			  <form action="#" method="get">
+			  
 				<input id="battery" type="radio" name="#" value="#" checked>
 				<label for="battery">аккумуляторные</label>
 				<input id="network" type="radio" name="#" value="#">
 				<label for="network">сетевые</label> 
-			  </form>
+			  
 			</div>  
 		  </div>
 		  <div class="show">
-			<a href="#">показать</a>
-	   	  </div>	
+			<input type="submit" value="показать">
+	   	  </div>
+		</form>	  
         </div>
         <div class="content-item-right">
           <div class="sorting">
@@ -174,59 +174,74 @@
           <section class="sorting-item">
             <article class="sorting-item-one">
               <img src="#">
-              <p>перфоратор BOSCH BFG 3000</p>
-				<div class="price"><s>22500р.</s></div>
-              <div class="price-discount">15500р.</div>  
+              <h3>перфоратор BOSCH BFG 3000</h3>
+			  <div class="price">
+				 <s>22500р.</s>
+				 <span>15500р.</span>
+			  </div>  
             </article>
             <article class="sorting-item-two">
               <img src="#">
-              <p>перфоратор BOSCH BFG 6000</p>
-			  <div class="price"><s>30500р.</s></div>
-              <div class="price-discount">25500р.</div>  
+              <h3>перфоратор BOSCH BFG 6000</h3>
+			  <div class="price">
+				<s>30500р.</s>
+				<span>25500р.</span>
+			  </div>  
             </article>
             <article class="sorting-item-three">
 			  <div class="buy-bookmarks">
 				<a class="buy" href="#">купить</a>
 				<a class="bookmarks" href="#">в закладки</a>  
 			  </div>
+			  <div class="new">new</div>
               <!--<img src="#">-->
-              <p>перфоратор BOSCH BFG 2000</p>
+              <h3>перфоратор BOSCH BFG 2000</h3>
               <!--<div class="price"></div>-->
-              <div class="price-discount">12500р.</div>  
+              <div class="price">12500р.</div>  
             </article>
             <article class="sorting-item-four">
               <img src="#">
-              <p>перфоратор BOSCH BFG 3000</p>
-				<div class="price"><s>22500р.</s></div>
-              <div class="price-discount">15500р.</div>  
+              <h3>перфоратор BOSCH BFG 3000</h3>
+			  <div class="price">
+				<s>22500р.</s>
+				<span>15500р.</span>
+			  </div>  
             </article>
 			<article class="sorting-item-five">
               <img src="#">
-              <p>перфоратор BOSCH BFG 6000</p>
-				<div class="price"><s>30500р.</s></div>
-              <div class="price-discount">25500р.</div>  
+			  <div class="new">new</div>
+			  <h3>перфоратор BOSCH BFG 6000</h3>
+			  <div class="price">
+				<s>30500р.</s>
+				<span>25500р.</span>
+			  </div>  
             </article>
 			<article class="sorting-item-six">
               <img src="#">
-              <p>перфоратор BOSCH BFG 2000</p>
+              <h3>перфоратор BOSCH BFG 2000</h3>
               <!--<div class="price">22500</div>-->
-              <div class="price-discount">12500р.</div>  
+              <div class="price">12500р.</div>  
             </article>
 			<article class="sorting-item-seven">
               <img src="#">
-              <p>перфоратор BOSCH BFG 3000</p>
-			  <div class="price"><s>22500р.</s></div>
-              <div class="price-discount">15500р.</div>  
+              <h3>перфоратор BOSCH BFG 3000</h3>
+			  <div class="price">
+				<s>22500р.</s>
+				<span>15500р.</span>
+			  </div>  
             </article>
 			<article class="sorting-item-eight">
               <img src="#">
-              <p>перфоратор BOSCH BFG 6000</p>
-			  <div class="price"><s>30500</s></div>
-              <div class="price-discount">25500р.</div>  
+              <h3>перфоратор BOSCH BFG 6000</h3>
+			  <div class="price">
+				 <s>30500</s>
+				 <span>25500р.</span>
+			  </div>  
             </article>
 			<article class="sorting-item-nine">
               <img src="#">
-              <p>перфоратор BOSCH BFG 2000</p>
+			  <div class="new">new</div>
+              <H3>перфоратор BOSCH BFG 2000</H3>
               <!--<div class="price">22500</div>-->
               <div class="price-discount">12500р.</div>  
             </article>
@@ -235,8 +250,8 @@
           </section>
         </div>  
       </div>
-	  <div class="switchpages">
-	    <ul>
+	  <!--<div class="switchpages">-->
+	    <ul class="pages">
 		  <li>
 			<a href="#">1</a>  
 		  </li>	
@@ -250,20 +265,21 @@
 			<a href="#">Следующая</a>  
 		  </li>		
 		</ul>
-	  </div>
+	  <!--</div>-->
 	  <div class="description-item">
 		<h2>Пара слов о перфораторах</h2>
 		<p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>  
-	  </div>	
+	  </div>
+	  </div>
     </main>
       
     <footer class="main-footer">
       <div class="container">
         <div class="top-footer">
           <div class="top-footer-top">
-            <div class="top-block-title">
+            <h1 class="footer-logo">
               <a href="index.html">Техномарт</a>  
-            </div>
+            </h1>
             <nav class="footer-top-navigation">
               <ul>
                 <li>
@@ -281,7 +297,7 @@
                 <li>
                   <a href="#">Контакты</a>  
                 </li>   
-              </ul>  
+			  </ul> 
             </nav>
           </div>
           <div class="top-footer-bottom">
