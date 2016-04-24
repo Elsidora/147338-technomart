@@ -102,28 +102,22 @@
 			<span>фильтр:</span>  
 	   	  </div>
 		  <form action="#" method="get">	
-		  <div class="content-item-left-price">
-			<span>цена:</span>
-			<div class="filter-price">
-			
-              <div class="filter-controls">
-                <div class="scale">
-				  <div style="margin-left:10px;width:150px;" class="bar"></div>
-				</div>
-                <div class="toggle min-toggle" style="left:40px;"></div>
-                <div class="toggle max-toggle" style="left:180px;"></div>
-              </div>
-              <div class="price-controls">
-                от <input class="min-price" type="text" value="0">
-                до <input class="max-price" type="text" value="30 000">
-              </div>
+		    <fieldset>
+			  <legend>цена:</legend>
+                <div class="filter-controls">
+                  <div class="scale">
+				    <div style="margin-left:10px;width:150px;" class="bar"></div>
+				  </div>
+                  <div class="toggle min-toggle" style="left:40px;"></div>
+                  <div class="toggle max-toggle" style="left:180px;"></div>
+                </div>
+                <div class="price-controls">
+                  от <input class="min-price" type="text" value="0">
+                  до <input class="max-price" type="text" value="30 000">
+                </div>
               	
-			</div>  
-	   	  </div>
-		  <div class="content-item-left-brands">
-			<span>производители:</span>
-			<div class="content-item-left-list">
-			  	
+		      <legend>производители:</legend>
+			
 			    <input id="bosch" type="checkbox" name="#" value="#" checked>
 			    <label for="bosch">bosch</label>
 	            <input id="interscol" type="checkbox" name="#" value="#">		
@@ -135,22 +129,15 @@
 			    <input id="hitachi" type="checkbox" name="#" value="#">		
 			    <label for="hitachi">hitachi</label>
 			  				
-			</div>
-		  </div>
-		  <div class="content-item-left-energy">
-			<span>питание:</span>
-			<div class="content-item-left-list">
-			  
-				<input id="battery" type="radio" name="#" value="#" checked>
+		      <legend>питание:</legend>
+			
+			    <input id="battery" type="radio" name="#" value="#" checked>
 				<label for="battery">аккумуляторные</label>
 				<input id="network" type="radio" name="#" value="#">
 				<label for="network">сетевые</label> 
 			  
-			</div>  
-		  </div>
-		  <div class="show">
-			<input type="submit" value="показать">
-	   	  </div>
+			      <p><input type="submit" value="показать"></p>
+	   	  </fieldset>
 		</form>	  
         </div>
         <div class="content-item-right">
@@ -172,6 +159,10 @@
           </div>
           <section class="sorting-item">
             <article class="sorting-item-one">
+			  <div class="hidden">
+			    <button>купить</button>
+			    <button>в закладки</button>	
+			  </div>
               <h3>перфоратор BOSCH BFG 3000</h3>
 			  <div class="price">
 				 <s>22500р.</s>
@@ -179,6 +170,10 @@
 			  </div>  
             </article>
             <article class="sorting-item-two">
+			  <div class="hidden">
+			    <button>купить</button>
+			    <button>в закладки</button>	
+			  </div>	
               <h3>перфоратор BOSCH BFG 6000</h3>
 			  <div class="price">
 				<s>30500р.</s>
@@ -186,17 +181,20 @@
 			  </div>  
             </article>
             <article class="sorting-item-three">
-			  <div class="buy-bookmarks">
-				<a class="buy" href="#">купить</a>
-				<a class="bookmarks" href="#">в закладки</a>  
-			  </div>
 			  <div class="new">new</div>
-              <!--<img src="#">-->
-              <h3>перфоратор BOSCH BFG 2000</h3>
+			  <div class="hidden">
+				<button>купить</button>
+				<button>в закладки</button>  
+			  </div>
+			  <h3>перфоратор BOSCH BFG 2000</h3>
               <!--<div class="price"></div>-->
               <div class="price">12500р.</div>  
             </article>
             <article class="sorting-item-four">
+			  <div class="hidden">
+				<button>купить</button>
+				<button>в закладки</button>  
+			  </div>	
               <h3>перфоратор BOSCH BFG 3000</h3>
 			  <div class="price">
 				<s>22500р.</s>
@@ -205,6 +203,10 @@
             </article>
 			<article class="sorting-item-five">
               <div class="new">new</div>
+			  <div class="hidden">
+				<button>купить</button>
+				<button>в закладки</button>  
+			  </div>	
 			  <h3>перфоратор BOSCH BFG 6000</h3>
 			  <div class="price">
 				<s>30500р.</s>
@@ -212,11 +214,19 @@
 			  </div>  
             </article>
 			<article class="sorting-item-six">
+			  <div class="hidden">
+			    <button>купить</button>
+				<button>в закладки</button>  
+			   </div>	
                <h3>перфоратор BOSCH BFG 2000</h3>
               <!--<div class="price">22500</div>-->
               <div class="price">12500р.</div>  
             </article>
 			<article class="sorting-item-seven">
+			  <div class="hidden">
+				<button>купить</button>
+				<button>в закладки</button>  
+			  </div>	
               <h3>перфоратор BOSCH BFG 3000</h3>
 			  <div class="price">
 				<s>22500р.</s>
@@ -224,6 +234,10 @@
 			  </div>  
             </article>
 			<article class="sorting-item-eight">
+			  <div class="hidden">
+				<button>купить</button>
+				<button>в закладки</button>  
+			  </div>	
               <h3>перфоратор BOSCH BFG 6000</h3>
 			  <div class="price">
 				 <s>30500</s>
@@ -232,6 +246,10 @@
             </article>
 			<article class="sorting-item-nine">
               <div class="new">new</div>
+			  <div class="hidden">
+				<button>купить</button>
+				<button>в закладки</button>  
+			  </div>
               <H3>перфоратор BOSCH BFG 2000</H3>
               <!--<div class="price">22500</div>-->
               <div class="price-discount">12500р.</div>  
