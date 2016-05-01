@@ -154,15 +154,13 @@ h2	{
 	
 }
 
-
 .info-description	{
-	font: 16px/23px  Cuprum Italic;
-	
 	width: 300px;
 	float:left;
 	margin-right:20px;
 }
-.info-description p	{
+.info-description h2	{
+	font: 16px/23px  Cuprum Italic;
 	color:#ee4f5b;
 	padding-right: 47px;
 	padding-left: 60px;
