@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт</title>
-	<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!--<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>-->
   
 	<link rel="stylesheet" href="css/normalize.css">  
 	<link href="css/style.css" rel="stylesheet">
@@ -14,12 +14,12 @@
 	  <div class="top-header">
         <div class="container clearfix">
             <div class="logo"><a>Техномарт</a></div>
-            <div class="search">
-                <input data-role="search" type="search"></input>
-                <button type="submit"></button>
-            </div>
-            <div class="bookmark"><a href="#">Закладки:</a><span>0</span></div>
-            <div class="basket"><a href="#">Корзина:</a><span></span>0</div>
+            <form class="search" action="#" method="get">
+              <input class="header-search"                           type="search" name="search" placeholder="Поиск:">
+              <button class="btn-search icon-search" type="submit"></button>
+            </form>
+            <div class="bookmark"><a href="#">Закладки:<span>0</span></a></div>
+            <div class="basket"><a href="#">Корзина:<span>0</span></a></div>
             <div class="order"><a href="#">Оформить заказ</a></div>
         </div>
 	  </div>
@@ -30,10 +30,8 @@
               <h2>Интернет-магазин строительных материалов<br>и инструментов для ремонта</h2>    
             </div>
             <div class="info-contacts">
-              <!--<div class="info-contacts-tel">-->
-              <a href="#">+7(812)555-05-55</a>  
-              <!--</div>-->
-              <p>г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>    
+              <a href="#">+7 (812) 555-05-55</a>  
+              <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>    
             </div>
             <div class="user-block">
               <a class="login" href="#">Войти</a>  
@@ -85,31 +83,34 @@
             <h3>техника</h3>
             <a class="technique-item" href="#">для стройки</a>
           </div>
-          <div class="slider">
-            <input type="radio" id="btn-1" name="toggle" checked>
-            <input type="radio" id="btn-2" name="toggle">
-        
-            <div class="slider-controls">
-              <label for="btn-1"></label>
-              <label for="btn-2"></label>
-            </div>
-            <div class="slides">
-             <div class="slide">
-              <div class="slide-text">
-                <div class="slide-title">Перфораторы</div>
-                <p>Настроящие мужские игрушки</p>
-                <a class="btn" href="catalog.html">Открыть каталог</a>
-               </div>
-             </div>
-             <div class="slide">
-                <div class="slide-text">
-                  <div class="slide-title">Дрели</div>
-                  <p>Соседям на радость!</p>
-                  <a class="btn" href="catalog.html">Открыть каталог</a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- слайд-шоу -->
+<div class="slider">
+  <input type="radio" id="btn-1" name="toggle" checked>
+  <input type="radio" id="btn-2" name="toggle">
+  <div class="slider-controls">
+    <label for="btn-1"></label>
+    <label for="btn-2"></label>
+  </div>
+  <div class="slides-wrapper">
+    <div class="slide">
+      <div class="slide-header">
+        <h2 class="slide-title">Перфораторы</h2>
+        <p class="slide-subtitle">Настоящие мужские игрушки</p>
+      </div>
+      <a class="slider-btn" href="#">Открыть каталог</a>
+    </div>
+
+    <div class="slide">
+      <div class="slide-header">
+        <h2 class="slide-title">Дрели</h2>
+        <p class="slide-subtitle">Соседям на радость</p>
+      </div>
+      <a class="slider-btn" href="#">Открыть каталог</a>
+    </div>
+    <button class="slider-nav slide-prev" type="button"></button>
+    <button class="slider-nav slide-next" type="button"></button>
+  </div>
+</div>
         
 	      <div class="features-item features-discounts">
             <h3>скидки 50%</h3>
@@ -226,9 +227,9 @@
             <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.             </p>    
           </div>
           <div class="tabs">
-        <input type="radio" id="bn-1" name="toggle" checked>
-        <input type="radio" id="bn-2" name="toggle">
-        <input type="radio" id="bn-3" name="toggle">
+        <input type="radio" id="bn-1" name="toggler" checked>
+        <input type="radio" id="bn-2" name="toggler">
+        <input type="radio" id="bn-3" name="toggler">
         <div class="tabs-controls">
           <label for="bn-1">Доставка</label>
           <label for="bn-2">Гарантия</label>

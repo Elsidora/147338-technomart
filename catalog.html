@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт</title>
-	<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!--<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>-->
     <link rel="stylesheet" href="css/normalize.css">  
 	<link href="css/style.css" rel="stylesheet">  
   </head>
@@ -13,12 +13,12 @@
 	  <div class="top-header">
         <div class="container clearfix">
             <div class="logo"><a href="index.html">Техномарт</a></div>
-            <div class="search">
-                <input data-role="search" type="search"></input>
-                <button type="submit"></button>
-            </div>
-            <div class="bookmark"><a href="#">Закладки:</a><span>0</span></div>
-            <div class="basket"><a href="#">Корзина:</a><span></span>0</div>
+            <form class="search" action="#" method="get">
+              <input class="header-search"                           type="search" name="search" placeholder="Поиск:">
+              <button class="btn-search icon-search"            type="submit"></button>
+            </form>
+            <div class="bookmark"><a href="#">Закладки:<span>0</span></a></div>
+            <div class="basket-catalog"><a href="#">Корзина:<span>10</span></a></div>
             <div class="order"><a href="#">Оформить заказ</a></div>
         </div>
 	  </div>
@@ -29,14 +29,12 @@
               <h2>Интернет-магазин строительных материалов<br>и инструментов для ремонта</h2>    
             </div>
             <div class="info-contacts">
-              <!--<div class="info-contacts-tel">-->
-              <a href="#">+7(812)555-05-55</a>  
-              <!--</div>-->
-              <p>г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>    
+              <a href="#">+7 (812) 555-05-55</a>  
+              <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>    
             </div>
-            <div class="user-block">
+            <div class="user-block-catalog">
               <div class="user-block-login">
-                <a class="login" href="#">Равшан Джамшутович</a>  
+                <a class="login-catalog" href="#">Равшан  Джамшутович</a>  
               </div>
               <div class="user-block-account">
                 <a class="account-orders" href="#">Мои заказы</a>
@@ -123,25 +121,41 @@
                 </div>
              <div class="manufactures">
 		      <legend class="name">производители:</legend>
-			
+			    <ul>
+			    <li>
 			    <input id="bosch" type="checkbox" name="bosch" checked>
 			    <label for="bosch">bosch</label>
+                </li>
+                <li>
 	            <input id="interscol" type="checkbox" name="interscol">		
 			    <label for="interscol">интерскол</label>
+                </li>
+                <li>
 			    <input id="makita" type="checkbox" name="makita" checked>		
 			    <label for="makita">makita</label>
+                </li>
+                <li>
 			    <input id="dewalt" type="checkbox" name="dewalt">		
 			    <label for="dewalt">dewalt</label>
+                </li>
+                <li>
 			    <input id="hitachi" type="checkbox" name="hitachi">		
 			    <label for="hitachi">hitachi</label>
+                </li>
+               </ul>
              </div>
              <div class="energy">				
 		      <legend class="name">питание:</legend>
-			
+			    <ul>
+			    <li>
 			    <input id="battery" type="radio" name="bat" checked>
 				<label for="battery">аккумуляторные</label>
-				<input id="network" type="radio" name="bat">
-				<label for="network">сетевые</label> 
+                </li>
+                <li>
+                <input id="network" type="radio" name="bat">
+				<label for="network">сетевые</label>
+                </li>
+                </ul> 
               </div>
 			    <input type="submit" value="показать">
 	   	  </fieldset>
@@ -150,21 +164,21 @@
         <div class="content-item-right">
 
               <ul class="sorting-list">
-				<li>Сортировка</li>
+				<li>Сортировка:</li>
                 <li>
-                  <a href="#">по цене</a>    
+                  <a class="sort" href="#">по цене</a>    
                 </li>
                 <li>
-                  <a href="#">по типу</a>    
+                  <a class="sort" href="#">по типу</a>    
                 </li>
                 <li>
-                  <a href="#">по функционалу</a>    
+                  <a class="sort" href="#">по функционалу</a>    
                 </li>
 				<li>
-				  <a href="#"></a>
+				  <a class="icon-up-dir" href="#"></a>
 				</li>
 				<li>
-				  <a href="#"></a>
+				  <a class="icon-down-dir" href="#"></a>
 				</li>   
               </ul>  
           <ul class="sorting-catalog">
@@ -328,7 +342,7 @@
                     <a href="index.html">Техномарт</a>  
                   </h1>
 				</li>
-            <!--<nav class="footer-navigation top">-->
+            
               
                 <li>
                   <a href="#">Компания</a>  
