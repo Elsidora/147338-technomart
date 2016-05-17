@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font-family: PTSans, Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
@@ -90,14 +90,14 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprun, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 }
 
 h2 {
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 }
 
 .catalog-title {
@@ -113,7 +113,7 @@ h2 {
 
   font-size: 14px;
   line-height: 14px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -186,7 +186,7 @@ h2 {
 
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -243,7 +243,7 @@ h2 {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;;
   text-align: center;
 
@@ -258,7 +258,7 @@ h2 {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;;
   text-align: center;
 
@@ -292,7 +292,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #ffffff;
   background-color: #293449;
@@ -364,7 +364,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-decoration: none;
 
   color: #ffffff;
@@ -436,7 +436,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-decoration: none;
 
   color: #ffffff;
@@ -516,7 +516,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-align: center;
   text-decoration: none;
 
@@ -553,7 +553,7 @@ h2 {
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #ee3643;
 }
@@ -573,7 +573,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #e9292a;
   border: 3px solid #ffffff;
@@ -582,7 +582,7 @@ h2 {
 .header-contacts-address {
   font-size: 14px;
   line-height: 24px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-align: center;
 
   color: #32425c;
@@ -611,7 +611,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-decoration: none;
 
   color: #000000;
@@ -662,7 +662,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-align: center;
   text-decoration: none;
 
@@ -698,7 +698,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-decoration: none;
 
   color: #000000;
@@ -796,7 +796,7 @@ h2 {
 .user-account-link {
   font-size: 16px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #32425c;
 }
@@ -864,7 +864,7 @@ h2 {
 
   font-size: 17px;
   line-height: 17px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-decoration: none;
 
   color: #ffffff;
@@ -923,7 +923,7 @@ h2 {
 
   font-size: 24px;
   line-height: 24px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -937,7 +937,7 @@ h2 {
 
   font-size: 14px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -1050,7 +1050,7 @@ h2 {
 
   font-size: 36px;
   line-height: 36px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -1062,7 +1062,7 @@ h2 {
 
   font-size: 18px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 }
 
 .index-slide-btn {
@@ -1183,7 +1183,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #32425c;
@@ -1263,7 +1263,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 14px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -1346,7 +1346,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-align: center;
 
   color: #000000;
@@ -1359,7 +1359,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 17px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-align: center;
   text-decoration: line-through;
 
@@ -1378,7 +1378,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 17px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-align: center;
 
   color: #ffffff;
@@ -1474,7 +1474,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #000000;
@@ -1488,7 +1488,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #000000;
 }
@@ -1529,7 +1529,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
  font-weight: 700;
  font-size: 21px;
  line-height: 30px;
- font-family: Cuprum, Arial, sans-serif;
+ font-family:  "Cuprum", " Arial",  sans-serif;
  text-align: center;
  text-decoration: none;
 
@@ -1591,7 +1591,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 36px;
   line-height: 36px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #32425c;
@@ -1605,7 +1605,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 }
 
 .credit-apllication-btn {
@@ -1635,7 +1635,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 }
 
@@ -1647,7 +1647,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 14px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 }
 
 .delivery-list {
@@ -1658,7 +1658,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   list-style: none;
 }
 .delivery-list li {
@@ -1696,7 +1696,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 }
 
@@ -1708,7 +1708,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 }
 
 .index-info-contacts .contacts-map {
@@ -1733,7 +1733,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #32425c;
@@ -1755,7 +1755,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #000000;
@@ -1784,7 +1784,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 17px;
   line-height: 30px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-transform: uppercase;
 }
 
@@ -1862,7 +1862,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 17px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-align: center;
 
   background-color: #f7f3ec;
@@ -1890,7 +1890,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 15px;
   line-height: 20px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #000000;
@@ -1991,7 +1991,7 @@ input[name="manufacturer"]:disabled + label[for="hitachi"]::after {
 
   font-size: 14px;
   line-height: 20px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #000000;
@@ -2066,7 +2066,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-transform: uppercase;
   text-align: center;
 
@@ -2099,7 +2099,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #000000;
@@ -2138,7 +2138,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .sorting-list a {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -2204,7 +2204,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -2246,7 +2246,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 }
 
@@ -2256,7 +2256,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 }
 
 /*footer*/
@@ -2290,7 +2290,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 18px;
   line-height: 24px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #f1f5f7;
 }
@@ -2320,7 +2320,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 18px;
   line-height: 24px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 }
 
 .footer-navigation-top li:first-of-type,
@@ -2373,7 +2373,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 16px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -2454,7 +2454,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 16px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -2473,7 +2473,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 16px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -2562,7 +2562,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 18px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
 
   background-color: #ffffff;
   border-top: 7px solid #ee3643;
@@ -2646,7 +2646,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top textarea {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   border-style: none;
   border: 2px solid #d7dcde;
@@ -2665,7 +2665,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top input::-webkit-input-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2673,7 +2673,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top input::-moz-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2681,7 +2681,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top input:-moz-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2689,7 +2689,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top input:-ms-input-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2706,7 +2706,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top textarea::-webkit-input-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2714,7 +2714,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top textarea::-moz-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2722,7 +2722,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top textarea:-moz-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2730,7 +2730,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .write-us-top textarea:-ms-input-placeholder {
   font-size: 13px;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans",  "Arial",  sans-serif;
 
   color: #999999;
 }
@@ -2748,7 +2748,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 14px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
 
   border: 0;
@@ -2853,7 +2853,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 30px;
   line-height: 30px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   vertical-align: middle;
 
   color: #000000;
@@ -2878,7 +2878,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 14px;
   line-height: 18px;
-  font-family: Cuprum, Arial, sans-serif;
+  font-family:  "Cuprum", " Arial",  sans-serif;
   text-transform: uppercase;
   vertical-align: top;
 
