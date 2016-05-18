@@ -90,14 +90,14 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
 }
 
 h2 {
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 }
 
 .catalog-title {
@@ -113,7 +113,7 @@ h2 {
 
   font-size: 14px;
   line-height: 14px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -136,7 +136,7 @@ h2 {
 
 .breadcrumbs ul {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding: 0;
   padding-left: 15px;
 
@@ -147,7 +147,7 @@ h2 {
 .breadcrumbs li {
   position: relative;
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 37px;
 
   text-align: center;
   vertical-align: top;
@@ -166,7 +166,9 @@ h2 {
   border-top: 2px solid #c1c6ce;
   border-right: 2px solid #c1c6ce;
 
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+          transform: rotate(45deg);
 }
 
 .breadcrumbs li:first-child::before {
@@ -243,7 +245,7 @@ h2 {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;;
   text-align: center;
 
@@ -258,7 +260,7 @@ h2 {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;;
   text-align: center;
 
@@ -292,7 +294,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #ffffff;
   background-color: #293449;
@@ -364,7 +366,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-decoration: none;
 
   color: #ffffff;
@@ -436,7 +438,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-decoration: none;
 
   color: #ffffff;
@@ -516,7 +518,7 @@ h2 {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-align: center;
   text-decoration: none;
 
@@ -553,7 +555,7 @@ h2 {
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #ee3643;
 }
@@ -573,7 +575,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #e9292a;
   border: 3px solid #ffffff;
@@ -582,7 +584,7 @@ h2 {
 .header-contacts-address {
   font-size: 14px;
   line-height: 24px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-align: center;
 
   color: #32425c;
@@ -611,7 +613,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-decoration: none;
 
   color: #000000;
@@ -662,7 +664,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-align: center;
   text-decoration: none;
 
@@ -698,7 +700,7 @@ h2 {
 
   font-size: 21px;
   line-height: 21px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-decoration: none;
 
   color: #000000;
@@ -796,7 +798,7 @@ h2 {
 .user-account-link {
   font-size: 16px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #32425c;
 }
@@ -824,7 +826,7 @@ h2 {
 
 .main-navigation-list {
   margin: 0;
-  padding: 0;
+  padding: 0 26px;
 
   font-size: 0;
   line-height: 0;
@@ -839,6 +841,7 @@ h2 {
   content: "";
 
   display: inline-block;
+  vertical-align: top;
   width: 100%;
   height: 0px;
 
@@ -857,14 +860,11 @@ h2 {
 
 .main-navigation-list a {
   display: block;
-  padding-top: 19px;
-  padding-right: 30px;
-  padding-bottom: 19px;
-  padding-left: 30px;
+  padding: 15px 25px;
 
   font-size: 17px;
   line-height: 17px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-decoration: none;
 
   color: #ffffff;
@@ -923,7 +923,7 @@ h2 {
 
   font-size: 24px;
   line-height: 24px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -937,7 +937,7 @@ h2 {
 
   font-size: 14px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -1045,12 +1045,11 @@ h2 {
 
 .index-slide-title {
   margin: 0;
-  margin-bottom: 12px;
   padding: 0;
 
   font-size: 36px;
   line-height: 36px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -1092,7 +1091,9 @@ h2 {
   border-top: 3px solid #ffffff;
   border-left: 3px solid #ffffff;
 
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+          transform: rotate(-45deg);
 }
 
 .index-slider .arrow-right-toolge {
@@ -1109,7 +1110,9 @@ h2 {
   border-top: 3px solid #ffffff;
   border-right: 3px solid #ffffff;
 
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+          transform: rotate(45deg);
 }
 
 .index-slider .radio-left-toogle {
@@ -1149,11 +1152,13 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 }
 
 #toogle-1:checked ~ .index-slider-slides {
-  transform: translate(0);
+  -webkit-transform: translate(0);
+          transform: translate(0);
 }
 
 #toogle-2:checked ~ .index-slider-slides {
-  transform: translate(-620px);
+  -webkit-transform: translate(-620px);
+          transform: translate(-620px);
 }
 
 .items {
@@ -1164,9 +1169,9 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 .manufacturers-title {
   width: 885px;
   margin-bottom: 20px;
-  padding-top: 35px;
+  padding-top: 29px;
   padding-right: 25px;
-  padding-bottom: 35px;
+  padding-bottom: 24px;
   padding-left: 30px;
 
 
@@ -1183,7 +1188,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #32425c;
@@ -1200,7 +1205,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   display: inline-block;
   width: 218px;
-  min-height: 270px;
+  min-height: 256px;
   margin-bottom: 20px;
   margin-right: 20px;
   padding-bottom: 60px;
@@ -1263,7 +1268,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
   font-size: 14px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -1334,14 +1339,14 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   min-height: 100px;
   padding-top: 38px;
   padding-right: 19px;
-  padding-bottom: 37px;
+  padding-bottom: 31px;
   padding-left: 19px;
 }
 
 .item-title {
   width: 170px;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 18px;
@@ -1354,7 +1359,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
 .item-price-old {
   min-height: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 
   font-weight: 700;
   font-size: 17px;
@@ -1369,9 +1374,9 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 .item-price-current {
   position: absolute;
   bottom: 20px;
-  left: 48px;
+  left: 43px;
 
-  width: 122px;
+  width: 138px;
   padding-top: 11px;
   padding-bottom: 11px;
 
@@ -1409,7 +1414,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 }
 
 .manufacturers {
-  margin-bottom: 85px;
+  margin-bottom: 67px;
 
   font-size: 0;
 }
@@ -1439,7 +1444,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   min-height: 96px;
   padding-top: 23px;
   padding-right: 7px;
-  padding-bottom: 24px;
+  padding-bottom: 14px;
   padding-left: 7px;
 
   text-align: center;
@@ -1459,22 +1464,19 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 }
 
 .services {
-  margin-bottom: 80px;
-  padding-top: 70px;
+  margin-bottom: 79px;
+  padding-top: 62px;
 
   color: #000000;
   background-color: #f2f6f8;
 }
 
 .services-title {
-  margin: 0;
-  margin-bottom: 35px;
+  margin: 0 0 26px;
   padding: 0;
-
-  font-weight: 700;
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #000000;
@@ -1522,15 +1524,14 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
 .services-slider-btn {
  display: block;
- width: 238px;
+ width: 217px;
  padding-top: 14px;
  padding-bottom: 14px;
-
+ padding-left: 21px;
  font-weight: 700;
  font-size: 21px;
  line-height: 30px;
- font-family:  "Cuprum", " Arial",  sans-serif;
- text-align: center;
+ font-family: "Cuprum", "Arial",  sans-serif;
  text-decoration: none;
 
  color: #ffffff;
@@ -1584,14 +1585,13 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 }
 
 .services-slide-title {
-  margin: 0;
-  margin-bottom: 35px;
+  margin: 0 0 23px;
   padding: 0;
 
   font-weight: 700;
   font-size: 36px;
   line-height: 36px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 
   color: #32425c;
@@ -1628,21 +1628,19 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 }
 
 .index-info-company .company-title {
-  margin: 0;
-  margin-bottom: 35px;
+  margin: 0 0 25px;
   padding: 0;
 
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 }
 
 .index-info-company p {
   width: 555px;
-  margin: 0;
-  margin-bottom: 25px;
+  margin: 0 0 22px;
   padding: 0;
 
   font-size: 14px;
@@ -1658,7 +1656,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   list-style: none;
 }
 .delivery-list li {
@@ -1689,21 +1687,19 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 }
 
 .index-info-contacts .contacts-title {
-  margin: 0;
-  margin-bottom: 35px;
+  margin: 0 0 25px;
   padding: 0;
 
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 }
 
 .index-info-contacts p {
   width: 180px;
-  margin: 0;
-  margin-bottom: 35px;
+  margin: 0 0 29px;
   padding: 0;
 
   font-size: 13px;
@@ -1726,14 +1722,15 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   width: 910px;
   margin: 0;
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 28px;
   padding-right: 0;
   padding-bottom: 30px;
   padding-left: 30px;
 
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
 
   color: #32425c;
@@ -1748,7 +1745,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
 .catalog-filter .filter-title {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -1873,7 +1870,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
 
 .filter-manufacturers {
   margin-bottom: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1885,7 +1882,7 @@ input[name="toogle"]:checked + .arrow-right-toolge + .radio-right-toogle {
   position: relative;
 
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 19px;
   padding-left: 35px;
 
   font-size: 15px;
@@ -1986,7 +1983,7 @@ input[name="manufacturer"]:disabled + label[for="hitachi"]::after {
   position: relative;
 
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding-left: 35px;
 
   font-size: 14px;
@@ -2095,7 +2092,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 }
 
 .items-sorting .sorting-title {
-  margin-right: 140px;
+  margin-right: 128px;
 
   font-size: 13px;
   line-height: 18px;
@@ -2119,6 +2116,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
   position: relative;
 
   display: inline-block;
+  vertical-align: top;
   height: 18px;
   margin-right: 65px;
 }
@@ -2179,6 +2177,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 }
 
 .paginator {
+  padding-top: 32px;
   margin-bottom: 60px;
 }
 
@@ -2192,6 +2191,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
 .paginator li {
   display: inline-block;
+  vertical-align: top;    
   margin-right: 10px;
 }
 
@@ -2234,19 +2234,21 @@ input[name="power"]:disabled + label[for="wire"]::after {
 }
 
 .catalog-info {
-  padding-top: 70px;
+  padding-top: 65px;
   padding-bottom: 70px;
   background-color: #f2f6f8;
+  font-weight: 400;
+line-height: 24px;
 }
 
 .catalog-info-title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   padding: 0;
 
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 }
 
@@ -2290,7 +2292,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 18px;
   line-height: 24px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #f1f5f7;
 }
@@ -2317,10 +2319,10 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .footer-navigation-bottom li {
   display: inline-block;
   margin-left: 60px;
-
+  vertical-align: top;
   font-size: 18px;
   line-height: 24px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 }
 
 .footer-navigation-top li:first-of-type,
@@ -2331,7 +2333,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 .footer-navigation-top a,
 .footer-navigation-bottom a {
   display: block;
-  padding-top: 22px;
+  padding-top: 15px;
   padding-bottom: 22px;
 
   text-decoration: none;
@@ -2373,7 +2375,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 16px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -2454,7 +2456,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 16px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -2473,7 +2475,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 16px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   color: #ffffff;
 }
@@ -2498,30 +2500,71 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
 /*modal*/
 
-@keyframes bounce {
+@-webkit-keyframes bounce {
   0%   {
-    transform: translateY(-2000px);
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
   }
   70%  {
-    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
   }
   90%  {
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
   100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%   {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+  70%  {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  90%  {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
 }
 
 @keyframes shake {
   0%, 100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   10%, 30%, 50%, 70%, 90% {
-    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
   20%, 40%, 60%, 80% {
-    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
 }
 
@@ -2562,7 +2605,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 18px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
 
   background-color: #ffffff;
   border-top: 7px solid #ee3643;
@@ -2571,10 +2614,12 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
 .write-us-show {
   display: block;
-  animation: bounce 0.6s;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s;
 }
 .write-us-error {
-  animation: shake 0.6s;
+  -webkit-animation: shake 0.6s;
+          animation: shake 0.6s;
 }
 
 .write-us-close {
@@ -2607,11 +2652,13 @@ input[name="power"]:disabled + label[for="wire"]::after {
 }
 
 .write-us-close::before{
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .write-us-close::after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .write-us-top {
@@ -2639,6 +2686,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
 .write-us-top .field-title {
   display: inline-block;
+  vertical-align: top;
   margin-bottom: 15px;
 }
 
@@ -2748,7 +2796,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 14px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
 
   border: 0;
@@ -2775,7 +2823,8 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
 .modal-cart-show {
   display: block;
-  animation: bounce 0.6s;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s;
 }
 
 .modal-cart-close {
@@ -2808,11 +2857,13 @@ input[name="power"]:disabled + label[for="wire"]::after {
 }
 
 .modal-cart-close::before{
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .modal-cart-close::after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .modal-cart-picture {
@@ -2841,7 +2892,9 @@ input[name="power"]:disabled + label[for="wire"]::after {
   border-bottom: 8px solid #ffffff;
   border-left: 8px solid #ffffff;
 
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+          transform: rotate(-45deg);
 }
 
 .modal-cart p {
@@ -2853,7 +2906,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 30px;
   line-height: 30px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   vertical-align: middle;
 
   color: #000000;
@@ -2878,7 +2931,7 @@ input[name="power"]:disabled + label[for="wire"]::after {
 
   font-size: 14px;
   line-height: 18px;
-  font-family:  "Cuprum", " Arial",  sans-serif;
+  font-family: "Cuprum", "Arial",  sans-serif;
   text-transform: uppercase;
   vertical-align: top;
 
@@ -2914,7 +2967,8 @@ input[name="power"]:disabled + label[for="wire"]::after {
 }
 .modal-map-show{
   display: block;
-  animation: bounce 0.6s;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s;
 }
 
 .modal-map-close {
@@ -2947,10 +3001,12 @@ input[name="power"]:disabled + label[for="wire"]::after {
 }
 
 .modal-map-close::before{
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .modal-map-close::after {
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
